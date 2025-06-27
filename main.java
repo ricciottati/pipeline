@@ -13,7 +13,7 @@ public class Main {
   public class PythonInJava {
       public static void main(String[] args) {
           PythonInterpreter interpreter = new PythonInterpreter();
-          interpreter.zexec("print('Hello from Python!')");
+          interpreter.zexec("print('Hello world from Python!')");
       }
   }
   
